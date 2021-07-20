@@ -17,6 +17,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--eta', default=1e-25, type=float)
 parser.add_argument('--lr', default=0.5, type=float)
 parser.add_argument('--beta', default=1e10, type=float)
+parser.add_argument('--epochs', default=3000, type=int)
 args = parser.parse_args()
 
 
@@ -49,10 +50,11 @@ print('==================learning TLFN==================')
 lr = args.lr
 eta = args.eta
 beta = args.beta
+epochs = args.epochs
 
 r = 3
 d = 15 # hidden size
-epochs = 2
+
 batch_size = 2
 eps = np.sqrt(lr)
 act_fn = 'tanh'
