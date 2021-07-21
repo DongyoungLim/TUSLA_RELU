@@ -31,7 +31,7 @@ If you use this codebase in your work, please cite:
 ```
 @article{tusla_relu,
   title={NON-ASYMPTOTIC ESTIMATES FOR TUSLA ALGORITHM FOR NON-CONVEX LEARNING WITH APPLICATIONS TO NEURAL NETWORKS WITH RELU ACTIVATION FUNCTION},
-  author={D.Y. Lim and A. Neufeld and S. Sabanis and Y. Zhang},
+  author={D.-Y. Lim and A. Neufeld and S. Sabanis and Y. Zhang},
   journal={arXiv:2107.08649},
   year={2021},  
 }
